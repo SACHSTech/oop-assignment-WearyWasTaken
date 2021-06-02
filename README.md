@@ -3,7 +3,7 @@
 
 [*see instructions for details*](Instructions.md)
 
-![alt text](https://github.com/SACHSTech/oop-assignment-WearyWasTaken/blob/main/Pictures/OOP%20Assignment.png)
+![alt text](https://github.com/SACHSTech/oop-assignment-WearyWasTaken/blob/main/Pictures/OOPAssignment.png)
 
 ## Summary
 *Include a brief summary that describes your system that your are modelling*
