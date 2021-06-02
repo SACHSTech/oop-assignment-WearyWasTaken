@@ -4,6 +4,7 @@ public class Teacher extends Whitelist{
     
     private int teacherSalary;
 
+    //Constructor method
     public Teacher(String firstN, String lastN, String ad, int emContact, int teachSalary){
 
         super(firstN, lastN, ad, emContact);
@@ -11,12 +12,14 @@ public class Teacher extends Whitelist{
 
     }
 
+    //Getter method for teacher salary
     public int getTeacherSalary(){
 
         return teacherSalary;
 
     }
 
+    //Returns a string describing info about the teacher class
     public String toString(){
 
         System.out.println("First Name: " + getFirstName());
@@ -28,6 +31,7 @@ public class Teacher extends Whitelist{
 
     }
 
+    //Setter method for teacher salary
     public void setSalary(int newSalary){
 
         teacherSalary =  newSalary;
