@@ -9,6 +9,7 @@ public class Classroom{
     private Subject subject;
     private ArrayList<Student> students;
 
+    //Constructor method
     public Classroom(Teacher theTeacher, Subject theSubject){
         
         teacher = theTeacher;
@@ -17,42 +18,42 @@ public class Classroom{
 
     }
 
+    //Adds a student to the to student array
     public void addStudent(Student newStudent){
 
         students.add(newStudent);
 
     }
 
-    public int getNumStudents(){
-
-        return students.size();
-
-    }
-
+    //Sets the teacher
     public void setTeacher(Teacher newTeacher){
 
         teacher = newTeacher;
 
     }
 
+    //Sets the teacher salary
     public void setSalary(int newSalary){
 
         teacher.setSalary(newSalary);
 
     }
 
+    //Sets the subject
     public void setSubject(Subject newSubject){
 
         subject = newSubject;
 
     }
 
+    //Sets a student's grade
     public void setGrade(int selection, int marks){
 
         students.get(selection).setGrade(marks);
 
     }
 
+    //Prints all student grades
     public void printMarks(){
 
         for(int i = 0; i < students.size(); i++){
@@ -63,6 +64,7 @@ public class Classroom{
 
     }
 
+    //Prints all student first names
     public void printStudentNames(){
 
         for(int i = 0; i < students.size(); i++){
@@ -74,18 +76,21 @@ public class Classroom{
 
     }
 
+    //Prints all teacher info
     public void printTeacherInfo(){
 
         teacher.toString();
 
     }
 
+    //Prints all subject info
     public void printSubjectInfo(){
 
         subject.toString();
 
     }
 
+    //Prints the class average
     public int getAverageGrade(){
 
         int sum = 0;
